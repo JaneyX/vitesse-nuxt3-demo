@@ -1,0 +1,392 @@
+.head {
+  font-family: Arial;
+  background: url(https://www.sc-edu.com/images/dtb/head/head_bg1.png) center center no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  .main-container {
+    max-width: 1200px;
+    height: 591px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 20px;
+    .dtb-character-box {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #CCF0FF;
+      border-radius: 30px;
+      box-sizing: border-box;
+      padding: 10px 30px;
+      position: absolute;
+      .dtb-character-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 13px;
+        .circle {
+          display: inline-block;
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background-color: #4EAAFF;
+          margin-right: 12px;
+        }
+        .text {
+          font-size: 15px;
+          letter-spacing: 1px;
+          color: #505050;
+        }
+      }
+    }
+    .l-info-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      h3 {
+        font-size: 44px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        color: #5C5C5C;
+        margin-top: 60px;
+        margin-left: 70px;
+      }
+      p {
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #999BBA;
+        margin-top: 22px;
+        margin-left: 70px;
+      }
+      .scan-code-box {
+        width: 210px;
+        height: 210px;
+        margin-top: 30px;
+        margin-left: 125px;
+      }
+      .experience-btn {
+        border: none;
+        outline: none;
+        width: 190px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        background: linear-gradient(270deg, rgba(66, 229, 151, 0.9) 0%, rgba(0, 201, 183, 0.9) 100%);
+        border-radius: 300px;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 25px;
+        margin-left: 128px;
+      }
+    }
+    .r-img-box {
+      width: 770px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 25px;
+      z-index: 0;
+    }
+  }
+}
+.article {
+  .star-functions-block {
+
+    margin-top: 20px;
+    background: url(https://www.sc-edu.com/images/dtb/star_functions/new_bg2.png) bottom right no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 20px;
+    .main-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      .title {
+        float: left;
+        width: 158px;
+        height: 56px;
+        line-height: 56px;
+        background-color: #DEFDFF;
+        border-radius: 10px;
+        font-size: 24px;
+        letter-spacing: 2px;
+        color: #1BDFEE;
+        text-align: center;
+        margin-left: 70px;
+        margin-top: 30px;
+      }
+      .intro-img-block {
+        float: left;
+        position: relative;
+        width: 323px;
+        height: 612px;
+        background: url(https://www.sc-edu.com/images/dtb/star_functions/main_new.png) no-repeat;
+        background-size: contain;
+        margin-left: 156px;
+        .side-img {
+          width: 356px;
+          height: 363px;
+          position: absolute;
+          left: -316px;
+          top: 122px;
+        }
+      }
+      .right-info {
+        float: left;
+        margin-left: 86px;
+        h3:nth-child(1) {
+          margin-top: 90px;
+        }
+        h3 {
+          font-size: 32px;
+          color: #5C5C5C;
+          letter-spacing: 2px;
+          font-weight: 400;
+        }
+        p:nth-of-type(1) {
+          margin-top: 70px;
+        }
+        p {
+          font-size: 24px;
+          color: #4A4A4A;
+          letter-spacing: 1px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .use-channels-block {
+    background: url(https://www.sc-edu.com/images/dtb/use-methods/bg_new.png) top right no-repeat;
+    background-size: 100%;
+    position: relative;
+    .main-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 0 20px 100px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .l-img-box {
+        width: 350px;
+        height: 350px;
+        background: url(https://www.sc-edu.com/images/dtb/use-methods/girl_circle.png) 0 0 no-repeat;
+        background-size: contain;
+        margin-left: 70px;
+        position: relative;
+      }
+      .right-usemethod-info {
+        h3 {
+          font-size: 32px;
+          color: #5C5C5C;
+          letter-spacing: 2px;
+          font-weight: 400;
+        }
+        .character-desc-container {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-top: 43px;
+          .character-desc-item {
+            font-size: 22px;
+            color: #2cb4a4;
+            letter-spacing: 2px;
+            margin-right: 20px;
+          }
+        }
+        .use-methods-container {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-top: 87px;
+          .use-methods-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+            .use-icon {
+              width: 154px;
+              height: 154px;
+            }
+            .use-text {
+              font-size: 20px;
+              color: #626473;
+              letter-spacing: 2.3px;
+              margin-top: 25px;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+    }
+  }
+  .characters-intro-block {
+    box-sizing: border-box;
+    padding: 0 20px;
+    .main-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      h4 {
+        font-size: 32px;
+        color: #5C5C5C;
+        letter-spacing: 4px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .intro-text {
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #7D68DA;
+        margin-top: 26px;
+        text-align: center;
+      }
+    }
+    .line-progress-block {
+      height: 500px;
+      margin: 0 auto;
+      background: url(https://www.sc-edu.com/images/dtb/characters_intro/character_block_pic1.png) center center no-repeat;
+      background-size: contain;
+      margin-top: 100px;
+      position: relative;
+    }
+  }
+  .sync-xwt-block {
+    margin-top: 100px;
+    .main-container {
+      max-width: 1320px;
+      margin: 0 auto;
+      background: #F7FBFE;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 70px 20px;
+      .left-img-box {
+        img {
+          width: 300px;
+          margin-top: 50px;
+        }
+      }
+      .center-info-block {
+        h4 {
+          font-size: 28px;
+          text-align: center;
+          color: #3B4958;
+          font-weight: 400;
+          letter-spacing: 2px;
+          margin-top: 10px;
+        }
+        .experien-xwt-btn {
+          width: 164px;
+          height: 52px;
+          line-height: 52px;
+          background: #5B7FFF;
+          box-shadow: 0px 2px 4px rgb(216 216 216 / 78%);
+          border-radius: 60px;
+          font-size: 20px;
+          color: #fff;
+          letter-spacing: 1px;
+          text-align: center;
+          cursor: pointer;
+          margin: 0 auto;
+          margin-top: 52px;
+        }
+        .intro {
+          font-size: 18px;
+          letter-spacing: 1px;
+          color: #97A4BB;
+          margin-top: 77px;
+        }
+      }
+      .right-img-box {
+        img {
+          width: 300px;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+  .add-value-block {
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    .main-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      .l-info-block {
+        .title {
+          display: inline-block;
+          width: 158px;
+          height: 56px;
+          line-height: 56px;
+          background: #fff3b6;
+          border-radius: 10px;
+          font-size: 24px;
+          font-weight: 300;
+          letter-spacing: 2px;
+          color: #ff8859;
+          text-align: center;
+          margin-left: 70px;
+        }
+        h4:nth-of-type(1) {
+          margin-top: 60px;
+        }
+        h4:nth-of-type(1)::after {
+          content: '';
+          display: inline-block;
+          width: 42px;
+          height: 37px;
+          background: url(https://www.sc-edu.com/images/dtb/add_value/add_icon.png) center center no-repeat;
+          background-size: contain;
+          margin-left: 18px;
+        }
+        h4 {
+          font-size: 36px;
+          letter-spacing: 2px;
+          color: #7d68da;
+          font-weight: 400;
+          margin-left: 70px;
+          white-space: nowrap;
+        }
+        p:nth-of-type(1) {
+          margin-top: 50px;
+        }
+        p {
+          font-size: 24px;
+          color: #4a4a4a;
+          letter-spacing: 2px;
+          font-weight: 300;
+          margin-left: 70px;
+          white-space: nowrap;
+        }
+      }
+      .r-img-block {
+        width: 600px;
+      }
+    }
+  }
+  .scan-code-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    .dtb-scan-code {
+      width: 262px;
+    }
+    .text {
+      font-size: 28px;
+      letter-spacing: 4px;
+      color: #404040;
+      font-weight: 300;
+      margin-top: 46px;
+    }
+  }
+}

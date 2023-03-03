@@ -1,6 +1,4 @@
 import { pwa } from './config/pwa'
-import { appDescription } from './constants/index'
-
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
@@ -18,9 +16,17 @@ export default defineNuxtConfig({
   },
   css: [
     '@unocss/reset/tailwind.css',
+    '@/assets/css/main.css',
+    'aos/dist/aos.css',
   ],
+  plugins: ['~/plugins/mdi.js'],
   colorMode: {
     classSuffix: '',
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+    },
   },
   nitro: {
     esbuild: {
@@ -31,23 +37,30 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       routes: ['/'],
-      ignore: ['/hi'],
     },
+  },
+  devServer: {
+    port: 5177,
   },
   app: {
     head: {
+      title: 'Website',
       viewport: 'width=device-width,initial-scale=1',
-      link: [
-        { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/nuxt.svg' },
-        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
-      ],
       meta: [
+        { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: appDescription },
-        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        { hid: 'description', name: 'description', content: '' },
+        { name: 'format-detection', content: 'telephone=no' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap',
+        },
       ],
     },
+    baseURL: '/website/',
   },
   pwa,
 })

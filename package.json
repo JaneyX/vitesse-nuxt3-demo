@@ -17,12 +17,24 @@
     "@iconify-json/twemoji": "^1.1.11",
     "@nuxtjs/color-mode": "^3.2.0",
     "@pinia/nuxt": "^0.4.6",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
     "@unocss/nuxt": "^0.49.7",
     "@vite-pwa/nuxt": "^0.0.6",
     "@vueuse/nuxt": "^9.13.0",
+    "aos": "^2.3.4",
+    "chart.js": "^4.2.1",
+    "core-js": "^3.29.0",
     "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
     "pinia": "^2.0.30",
-    "typescript": "^4.9.5"
+    "postcss": "^8.4.21",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.5",
+    "vue-chartjs": "5.2.0",
+    "vue-material-design-icons": "^5.2.0",
+    "vue2-smooth-scroll": "^1.6.0"
   }
 }
